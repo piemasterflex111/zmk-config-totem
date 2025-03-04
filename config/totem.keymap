@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q           &kp W       &kp E        &kp R                 &kp T           &kp Y         &kp L                &kp I      &kp O       &kp P
-         &mt UP_ARROW A  &mt LALT S  &mt LCTRL D  &mt LEFT_COMMAND F    &kp G           &kp H         &mt RIGHT_COMMAND J  &mt K K    &mt RALT L  &mt RGUI O
-&kp ESC  &kp Z           &kp X       &kp C        &kp V                 &kp B           &kp N         &kp M                &kp COMMA  &kp DOT     &kp FSLH    &kp TILDE
-                                     &kp LCTRL    &lt NAV LS(LEFT_ALT)  &out OUT_TOG    &out OUT_TOG  &lt SYM DELETE       &kp END
+            &kp Q           &kp W       &kp E        &kp R                 &kp T           &kp Y         &kp L                &kp I      &kp O       &kp P
+            &mt UP_ARROW A  &mt LALT S  &mt LCTRL D  &mt LEFT_COMMAND F    &kp G           &kp H         &mt RIGHT_COMMAND J  &mt K K    &mt RALT L  &mt RGUI O
+&bt BT_CLR  &kp Z           &kp X       &kp C        &kp V                 &kp B           &kp N         &kp M                &kp COMMA  &kp DOT     &kp FSLH    &bt BT_CLR
+                                        &kp LCTRL    &lt NAV LS(LEFT_ALT)  &out OUT_TOG    &out OUT_TOG  &lt SYM DELETE       &kp END
             >;
         };
 
