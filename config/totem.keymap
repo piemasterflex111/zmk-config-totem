@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp A  &kp W  &kp E        &kp R  &kp T    &kp Y         &kp L                &kp I      &kp O       &kp P
-       &kp B  &kp E  &mt LCTRL D  &kp C  &kp G    &kp H         &mt RIGHT_COMMAND J  &mt K K    &mt RALT L  &mt RGUI O
-&kp C  &kp D  &kp X  &kp C        &kp V  &kp B    &kp N         &kp M                &kp COMMA  &kp DOT     &kp FSLH    &bt BT_CLR
-                     &kp H        &kp I  &kp G    &out OUT_TOG  &lt SYM DELETE       &kp END
+       &kp Q  &kp W  &kp E     &kp R     &kp T        &kp Y      &kp U     &kp I    &kp O      &kp P
+       &kp A  &kp S  &kp D     &kp F     &kp G        &kp H      &kp J     &kp K    &kp L      &kp SEMI
+&kp Z  &kp X  &kp C  &kp V     &kp B     &kp SPACE    &kp SPACE  &kp N     &kp M    &kp COMMA  &kp DOT   &kp BSPC
+                     &kp LALT  &kp LGUI  &kp ESC      &kp RGUI   &kp RALT  &kp END
             >;
         };
 
