@@ -86,10 +86,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp Q      &kp W      &kp E      &kp R        &kp T        &kp Y    &kp U                     &kp I       &kp O      &kp P
-               &kp LG(A)  &kp LA(S)  &kp LC(D)  &kp LSHFT    &kp G        &kp H    &kp RS(J)                 &kp RC(K)   &kp RA(L)  &kp PLUS
-&kp LS(LG(S))  &kp Z      &kp X      &kp C      &kp V        &kp B        &kp K    &kp M                     &kp COMMA   &kp DOT    &kp FSLH  &kp RA(RS(F))
-                                     &kp DEL    &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM RS(GREATER_THAN)  &kp ESCAPE
+               &kp Q        &kp W        &kp E        &kp R        &kp T         &kp Y    &kp U                     &kp I        &kp O        &kp P
+               &mt LG(A) A  &mt LA(S) S  &mt LC(D) D  &mt LS(F) F  &mt CAPS G    &kp H    &mt RS(J) J               &mt RC(K) K  &mt RA(L) L  &kp PLUS
+&kp LS(LG(S))  &kp Z        &kp X        &kp C        &kp V        &kp B         &kp K    &kp M                     &kp COMMA    &kp DOT      &kp FSLH  &sys_reset
+                                         &kp DEL      &lt NAV TAB  &kp SPACE     &kp RET  &lt SYM RS(GREATER_THAN)  &kp ESCAPE
             >;
         };
 
@@ -140,7 +140,7 @@
             bindings = <
         &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS        &kp RA(U)   &kp SQT     &kp DQT
         &kp RA(A)    &trans       &kp RA(S)  &trans    &trans       &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
-&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
+&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &sys_reset
                                   &trans     &gif      &mo ADJ      &trans        &kp C_PP        &trans
             >;
         };
@@ -166,7 +166,7 @@
             bindings = <
         &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
         &bootloader  &bt BT_NXT  &trans        &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+&trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &sys_reset
                                  &trans        &trans  &trans    &trans  &trans  &trans
             >;
         };
@@ -192,7 +192,7 @@
             bindings = <
        &kp TAB     &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &none  &none  &none  &none  &none
        &lt TVP2 L  &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
-&kp J  &kp LSHFT   &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &none
+&kp J  &kp LSHFT   &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &sys_reset
                               &trans        &kp LC(F14)  &kp LC(F13)    &none  &none  &none
             >;
         };
@@ -218,7 +218,7 @@
             bindings = <
         &kp LC(F18)  &kp LS(I)     &kp LS(HOME)  &kp LS(O)      &kp LS(F)      &trans  &kp F7  &kp F8  &kp F9  &kp F12
         &trans       &kp LS(LEFT)  &kp LC(F17)   &kp LS(RIGHT)  &kp RET        &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &kp J        &kp LS(C)     &kp LC(F16)   &kp LS(V)      &kp LC(F15)    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+&trans  &kp J        &kp LS(C)     &kp LC(F16)   &kp LS(V)      &kp LC(F15)    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &sys_reset
                                    &trans        &kp LC(F12)    &kp LC(F11)    &trans  &trans  &trans
             >;
         };
@@ -231,6 +231,7 @@
             label = "NUM";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
             bindings = <
         &trans  &trans  &trans  &trans  &trans            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK  &kp SLASH
         &trans  &trans  &trans  &trans  &trans            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS     &kp BACKSLASH
