@@ -86,10 +86,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp Q        &kp W        &kp E        &kp R        &kp T         &kp Y    &kp U                     &kp I        &kp O        &kp P
-               &mt LG(A) A  &mt LA(S) S  &mt LC(D) D  &mt LS(F) F  &mt CAPS G    &kp H    &mt RS(J) J               &mt RC(K) K  &mt RA(L) L  &kp PLUS
-&kp LS(LG(S))  &kp Z        &kp X        &kp C        &kp V        &kp B         &kp K    &kp M                     &kp COMMA    &kp DOT      &kp FSLH  &sys_reset
-                                         &kp DEL      &lt NAV TAB  &kp SPACE     &kp RET  &lt SYM RS(GREATER_THAN)  &kp ESCAPE
+               &kp Q             &kp W               &kp E          &kp R                   &kp T         &kp Y    &kp U            &kp I       &kp O    &kp P
+               &kp A             &kp S               &kp D          &kp F                   &mt CAPS G    &kp H    &kp J            &kp K       &kp L    &kp PLUS
+&kp LS(LG(S))  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X  &kp C          &kp V                   &kp B         &kp K    &kp M            &kp COMMA   &kp DOT  &kp FSLH  &sys_reset
+                                                     &kp BACKSPACE  &lt NAV LG(LEFT_ARROW)  &kp SPACE     &kp RET  &lt SYM RA(TAB)  &kp ESCAPE
             >;
         };
 
