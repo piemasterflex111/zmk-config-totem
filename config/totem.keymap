@@ -37,7 +37,7 @@
         combo_esc {
             timeout-ms = <50>;
             key-positions = <0 1>;
-            bindings = <&lt 0 F1>;
+            bindings = <&tog 0>;
         };
 
         combo_tvp {
