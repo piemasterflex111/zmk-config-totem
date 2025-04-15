@@ -61,20 +61,20 @@
         Base {
             label = "Base";
             bindings = <
-              &kp Q       &kp W       &kp E          &kp R         &kp T        &kp Y        &kp U        &kp I                &kp O       &kp P
-              &hm LGUI A  &hm LALT S  &hm LCTRL D    &hm LSHIFT F  &kp G        &hm ENTER H  &hm RSHFT J  &hm RCTRL K          &hm RALT L  &hm RGUI SEMICOLON
-&lt 3 ESCAPE  &kp Z       &kp X       &kp C          &kp V         &kp B        &kp N        &kp M        &kp COMMA            &kp DOT     &kp SLASH           &lt 1 N
-                                      &mt LCTRL DEL  &lt 1 TAB     &kp SPACE    &kp SPACE    &lt 2 BSPC   &hm ENTER BACKSPACE
+              &kp Q       &kp W       &kp E          &kp R         &kp T            &kp Y          &kp U        &kp I        &kp O       &kp P
+              &hm LGUI A  &hm LALT S  &hm LCTRL D    &hm LSHIFT F  &kp G            &hm ENTER H    &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
+&lt 3 ESCAPE  &kp Z       &kp X       &kp C          &kp V         &kp B            &kp N          &kp M        &kp ENTER    &kp DOT     &kp SLASH           &lt 1 N
+                                      &mt LCTRL DEL  &kp SPACE     &kp BACKSPACE    &kp BACKSPACE  &kp SPACE    &lt 1 EXCL
             >;
         };
 
         Nav {
             label = "Nav";
             bindings = <
-              &trans          &trans       &kp UP_ARROW  &trans     &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
-              &kp LEFT_SHIFT  &kp LEFT     &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp LEFT_ALT  &trans          &kp PAGE_UP  &trans        &kp PG_DN  &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &trans
-                                           &trans        &trans     &trans      &trans    &trans        &kp NUMBER_0
+              &trans          &trans       &kp UP_ARROW  &trans     &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp PLUS
+              &kp LEFT_SHIFT  &kp LEFT     &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp MINUS
+&kp LEFT_ALT  &trans          &kp PAGE_UP  &trans        &kp PG_DN  &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp KP_MULTIPLY  &trans
+                                           &trans        &trans     &trans      &trans    &trans        &lt 0 AT_SIGN
             >;
         };
 
